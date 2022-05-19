@@ -6,6 +6,6 @@ namespace OficinaN7.Models
     {
         public int Id {get;set;}
         public int ServiceId {get;set;}
-        public DateTime DataHora{get;set;}
+        public DateTime DateTime{get;set;}
     }
 }

@@ -1,0 +1,20 @@
+@model OficinaN7.DTO.AddressDTO;
+<h2> Endereço </h2>
+
+<form class="form-horizontal" asp-action="Salvar" asp-controller="Addresses" method="POST">
+    <input type="hidden" asp-for="Id" >
+    <label asp-for="Rua"> <b>Rua</b> </label>
+    <input type="text" class="form-control" asp-for="Rua">
+    <label asp-for="Numero"> <b>Numero</b> </label>
+    <input type="text" class="form-control" asp-for="Numero">
+    <label asp-for="Complemento"> <b>Complemento</b> </label>
+    <input type="text" class="form-control" asp-for="Complemento">
+    <label asp-for="CEP"> <b>CEP</b> </label>
+    <input type="text" class="form-control" asp-for="CEP">
+    <label asp-for="Bairro"> <b>Bairro</b> </label>
+    <input type="text" class="form-control" asp-for="Bairro">
+    <label asp-for="Cidade"> <b>Cidade</b> </label>
+    <input type="text" class="form-control" asp-for="Cidade"><br>
+
+    <br><button class="btn btn-success">Finalizar Cadastro</button>
+</form>

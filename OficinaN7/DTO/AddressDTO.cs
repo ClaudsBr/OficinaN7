@@ -1,6 +1,6 @@
-namespace OficinaN7.Models
+namespace OficinaN7.DTO
 {
-    public class Address
+    public class AddressDTO
     {
         public int Id {get;set;}
         public string Rua{get;set;}

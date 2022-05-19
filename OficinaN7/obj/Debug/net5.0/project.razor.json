@@ -15619,6 +15619,11 @@
   "RootNamespace": "OficinaN7",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\coot\\OneDrive - GFT Technologies SE\\Documents\\OficinaN7\\OficinaN7\\Views\\Client\\Cadastrar.cshtml",
+      "TargetPath": "Views\\Client\\Cadastrar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\coot\\OneDrive - GFT Technologies SE\\Documents\\OficinaN7\\OficinaN7\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -15636,6 +15641,11 @@
     {
       "FilePath": "c:\\Users\\coot\\OneDrive - GFT Technologies SE\\Documents\\OficinaN7\\OficinaN7\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\coot\\OneDrive - GFT Technologies SE\\Documents\\OficinaN7\\OficinaN7\\Views\\Address\\Cadastrar.cshtml",
+      "TargetPath": "Views\\Address\\Cadastrar.cshtml",
       "FileKind": "mvc"
     },
     {

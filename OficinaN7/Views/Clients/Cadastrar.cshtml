@@ -1,0 +1,21 @@
+@model OficinaN7.DTO.ClientDTO;
+<h2> Dados do Cliente</h2>
+
+<form class="form-horizontal" asp-action="IrParaEndereco" asp-controller="Clients" method="POST">
+    <input type="hidden" asp-for="Id" >
+    <label asp-for="Name"> <b>Nome</b> </label>
+    <input type="text" class="form-control" asp-for="Name">
+    <label asp-for="CPF"> <b>CPF</b> </label>
+    <input type="text" class="form-control" asp-for="CPF">
+    <label asp-for="RG"> <b>RG</b> </label>
+    <input type="text" class="form-control" asp-for="RG">
+    <label asp-for="BirthDate"> <b>Data de Nascimento</b> </label>
+    <input type="date" class="form-control" asp-for="BirthDate">
+    <label asp-for="Phone"> <b>Telefone</b> </label>
+    <input type="text" class="form-control" asp-for="Phone">
+    <label asp-for="Email"> <b>E-Mail</b> </label>
+    <input type="text" class="form-control" asp-for="Email"><br>   
+
+
+    <br></b><button class="btn btn-success">Confirmar Dados</button>
+</form>

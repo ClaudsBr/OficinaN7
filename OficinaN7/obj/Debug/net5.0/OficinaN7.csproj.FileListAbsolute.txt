@@ -85,3 +85,5 @@ C:\Users\coot\OneDrive - GFT Technologies SE\Documents\OficinaN7\OficinaN7\obj\D
 C:\Users\coot\OneDrive - GFT Technologies SE\Documents\OficinaN7\OficinaN7\obj\Debug\net5.0\ref\OficinaN7.dll
 C:\Users\coot\OneDrive - GFT Technologies SE\Documents\OficinaN7\OficinaN7\obj\Debug\net5.0\OficinaN7.pdb
 C:\Users\coot\OneDrive - GFT Technologies SE\Documents\OficinaN7\OficinaN7\obj\Debug\net5.0\OficinaN7.genruntimeconfig.cache
+C:\Users\coot\OneDrive - GFT Technologies SE\Documents\OficinaN7\OficinaN7\obj\Debug\net5.0\Razor\Views\Clients\Cadastrar.cshtml.g.cs
+C:\Users\coot\OneDrive - GFT Technologies SE\Documents\OficinaN7\OficinaN7\obj\Debug\net5.0\Razor\Views\Addresses\Cadastrar.cshtml.g.cs

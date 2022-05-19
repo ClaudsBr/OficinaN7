@@ -1,8 +1,8 @@
 using System;
 
-namespace OficinaN7.Models
+namespace OficinaN7.DTO
 {
-    public class Client
+    public class ClientDTO
     {
         public int Id{get;set;}
         public string Name{get;set;}
@@ -12,14 +12,5 @@ namespace OficinaN7.Models
         public string Phone{get;set;}
         public string Email {get;set;}
         
-        public Address Address {get;set;}        
-        public Schedule Schedule {get;set;}
-        public string Role {get;set;}
-        public bool Status {get;set;}
-
-
-        public Client (){
-            this.Role = "Cliente";
-        }
     }
 }
