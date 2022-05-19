@@ -1,0 +1,11 @@
+@model OficinaN7.DTO.ServiceDTO;
+
+<h2> Cadastrar Serviço</h2>
+<form class="form-horizontal" asp-controller="Services" asp-action="Salvar" method="POST">
+    <label asp-for="Type"><b>Tipo de Serviço:</b></label><br>
+    <input type="text" class="form-control" asp-for="Type">
+    <br><label asp-for="Type"><b>Descrição</b></label><br>
+    <textarea type="text" asp-for="Description" rows="6" cols="150"></textarea><br>
+
+    <br></b><button class="btn btn-success" >Cadastrar</button>
+</form>

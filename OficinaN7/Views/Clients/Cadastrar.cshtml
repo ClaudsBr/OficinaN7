@@ -1,7 +1,7 @@
 @model OficinaN7.DTO.ClientDTO;
 <h2> Dados do Cliente</h2>
 
-<form class="form-horizontal" asp-action="IrParaEndereco" asp-controller="Clients" method="POST">
+<form class="form-horizontal" asp-action="Salvar" asp-controller="Clients" method="POST">
     <input type="hidden" asp-for="Id" >
     <label asp-for="Name"> <b>Nome</b> </label>
     <input type="text" class="form-control" asp-for="Name">
@@ -14,8 +14,22 @@
     <label asp-for="Phone"> <b>Telefone</b> </label>
     <input type="text" class="form-control" asp-for="Phone">
     <label asp-for="Email"> <b>E-Mail</b> </label>
-    <input type="text" class="form-control" asp-for="Email"><br>   
+    <input type="text" class="form-control" asp-for="Email"><br> 
+
+    <br> <h3>Endereço </h3> <br>
+    <label asp-for="Rua"> <b>Rua</b> </label>
+    <input type="text" class="form-control" asp-for="Rua">
+    <label asp-for="Numero"> <b>Numero</b> </label>
+    <input type="text" class="form-control" asp-for="Numero">
+    <label asp-for="Complemento"> <b>Complemento</b> </label>
+    <input type="text" class="form-control" asp-for="Complemento">
+    <label asp-for="CEP"> <b>CEP</b> </label>
+    <input type="text" class="form-control" asp-for="CEP">
+    <label asp-for="Bairro"> <b>Bairro</b> </label>
+    <input type="text" class="form-control" asp-for="Bairro">
+    <label asp-for="Cidade"> <b>Cidade</b> </label>
+    <input type="text" class="form-control" asp-for="Cidade"><br>
 
 
-    <br></b><button class="btn btn-success">Confirmar Dados</button>
+    <br></b><button class="btn btn-success">Cadastrar</button>
 </form>

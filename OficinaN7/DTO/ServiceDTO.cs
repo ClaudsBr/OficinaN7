@@ -1,11 +1,9 @@
-namespace OficinaN7.Models
+namespace OficinaN7.DTO
 {
-    public class Service
+    public class ServiceDTO
     {
         public int Id {get;set;}
         public string Type {get;set;}
         public string Description{get;set;}
-        public bool Status {get;set;}
-
     }
 }
